@@ -1,7 +1,11 @@
 # SOLUCION-RETO04
 _En el codigo llamado "ejercicio en clase" podemos encontrar este mismo_
+
 Para este codigo todo fue mucho mas facil pues tenia bastantes cosas adelantadas, decidi aplicar setters y getters en las subclases con atributos privados y en clase padre con atributos protegidos, realice uno para cada una de las subclases, tambien añadí el metodo de pago muy parecido al que vimos en clase, aceptando tarjeta o efectivo, y para el tema de los descuentos decidi utilizar una especie de comandos que permitieran realizarlos.
+
 _El codigo es el archivo llamado reto04_
+
+ 
  class MenuItem:
     def __init__(self, nombre, precio=int):
           self._nombre=nombre
