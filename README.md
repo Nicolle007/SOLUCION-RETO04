@@ -217,59 +217,59 @@ class Efectivo(Pago):
         faltante=total-self.dinero_entregado
         print(f"Faltan {faltante} para el pago.")
 
-# Ejemplo de uso de las clases
+#Ejemplo de uso de las clases
 pago1 = Tarjeta("debito")
 pago2 = Efectivo(100)
 
 pago1.pagar(50)
 pago2.pagar(75)
 
-# Sopas
+#Sopas
 sopa1 = Sopa("Sopa de pollo", 5000, "clara")
 sopa2 = Sopa("Sopa de lentejas", 5200, "espesa")
 sopa3 = Sopa("Sopa de verduras", 4800, "ligera")
 
-# Bebidas
+#Bebidas
 bebida1 = Bebida("Limonada", 3000, "fría")
 bebida2 = Bebida("Chocolate caliente", 3500, "caliente")
 bebida3 = Bebida("Jugo de mango", 3200, "fría")
 
-# Postres
+#Postres
 postre1 = Postre("Flan", 4000, False)
 postre2 = Postre("Helado de vainilla", 4500, True)
 postre3 = Postre("Torta de chocolate", 5000, False)
 
-# Frutas
+#Frutas
 fruta1 = Fruta("Manzana", 2500, "roja")
 fruta2 = Fruta("Banano", 2200, "maduro")
 fruta3 = Fruta("Uvas", 2700, "verdes")
 
-# Ensaladas
+#Ensaladas
 ensalada1 = Ensalada("Ensalada César", 6000, "ligera")
 ensalada2 = Ensalada("Ensalada griega", 5800, "fresca")
 ensalada3 = Ensalada("Ensalada tropical", 6200, "dulce")
 
-# Proteínas
+#Proteínas
 proteina1 = Proteina("Pollo asado", 10000, "200g")
 proteina2 = Proteina("Pescado al horno", 12000, "180g")
 proteina3 = Proteina("Carne a la parrilla", 13000, "250g")
 
-# Entradas
+#Entradas
 entrada1 = Entradas("Pan de ajo", 2500, "mesa")
 entrada2 = Entradas("Mini empanadas", 3000, "cocina")
 entrada3 = Entradas("Bastones de queso", 3200, "barra")
 
-# Adiciones
+#Adiciones
 adicion1 = Adicion("Papas a la francesa", 4000, "fritas")
 adicion2 = Adicion("Arepa", 1500, "asada")
 adicion3 = Adicion("Tajadas", 2000, "dulces")
 
-# Infantil
+#Infantil
 infantil1 = Infantil("Combo dinosaurio", 8500, "hamburguesa, jugo, sorpresa")
 infantil2 = Infantil("Caja mágica", 9000, "nuggets, papas, postre")
 infantil3 = Infantil("Mini pizza kit", 8000, "pizza personal, jugo")
 
-# Quesos
+#Quesos
 queso1 = Quesos("Queso mozzarella", 3500, "blando")
 queso2 = Quesos("Queso azul", 3800, "fuerte")
 queso3 = Quesos("Queso parmesano", 3600, "curado")
